@@ -194,8 +194,8 @@
 				The things in <span class="serif-accent">my orbit.</span> <span aria-hidden="true">🪐</span>
 			</h2>
 			<p class="section-description">
-				Tools I like. Little pieces of a better digital universe.<br />Pick a
-				star. There’s a whole world behind it. <span aria-hidden="true">✨</span>
+				Stuff I like. Little pieces of a better digital universe.<br />Pick a star. There’s a whole
+				world behind it. <span aria-hidden="true">✨</span>
 			</p>
 			<WordCloud />
 		</section>

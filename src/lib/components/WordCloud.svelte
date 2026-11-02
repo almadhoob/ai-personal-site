@@ -10,10 +10,7 @@
 	<ul class="word-cloud" aria-label="Tech things I love and advocate for">
 		{#each words as word (word.name)}
 			<li class={`word-size-${word.size} word-tone-${word.tone}`}>
-				<ExternalLink
-					href={word.href}
-					title={word.name}
-					aria-describedby={word.name}
+				<ExternalLink href={word.href} title={word.name} aria-describedby={word.name}
 					>{word.name}</ExternalLink
 				>
 			</li>
