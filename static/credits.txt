@@ -1,0 +1,59 @@
+AHMED'S INTRANET - THIRD-PARTY ARTWORK & CONTENT
+
+Original writing and original site artwork:
+Copyright 2026 Ahmed Almadhoob, except as noted.
+Creative Commons Attribution-ShareAlike 4.0 International:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Portrait:
+Provided by Ahmed Almadhoob. The original JPEG is retained.
+WebP versions are optimized copies of that supplied image.
+
+Technology logos (C++, Go, Python, Flutter, Svelte, JavaScript):
+Devicon contributors, Devicon v2.16.0, MIT License.
+Source: https://github.com/devicons/devicon/tree/v2.16.0
+License: https://github.com/devicons/devicon/blob/v2.16.0/LICENSE
+Copyright (c) 2015 konpa
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Linux Mint, Raspberry Pi, openSUSE, Rust, and social platform icons:
+Simple Icons contributors, Simple Icons v11.15.0, CC0 1.0.
+Source: https://github.com/simple-icons/simple-icons/tree/11.15.0
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Some single-color icons have been colored for visibility.
+
+FC Bayern Munich crest (2024):
+FC Bayern Munich, via Wikimedia Commons; PD-textlogo.
+https://commons.wikimedia.org/wiki/File:FC_Bayern_M%C3%BCnchen_logo_(2024).svg
+The Commons file describes this simple logo as public domain for copyright
+purposes. Trademark rights remain reserved. No endorsement is implied.
+
+Film quotation:
+Joseph Cooper's speech from Interstellar (2014), written by Jonathan Nolan
+and Christopher Nolan. Quoted for personal, noncommercial commentary.
+The quotation retains its respective rights and is not covered by the site's
+Creative Commons license.
+https://interstellarfilm.fandom.com/wiki/Joseph_Cooper
+
+Spotify:
+The embedded player and recording are supplied by Spotify and their
+respective rights holders, under their own terms, not the site's license.
+
+All third-party brand names and logos are trademarks of their respective
+owners. Icon-source licensing does not grant trademark rights. They are
+used here to identify technologies, personal profiles, and a supported team,
+not to imply sponsorship or affiliation.
