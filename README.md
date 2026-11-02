@@ -1,8 +1,6 @@
 # Ahmed's Intranet | A.I. Personal Cloud 🌐
 
-Ahmed Almadhoob's personal landing page: **Technopreneural Thoughts, Electronic Literature, and Netizenship Issues!**
-
-A space-and-robotics-inspired corner of the web, featuring a personal introduction, Linux and programming interests, a linked technology word cloud, FC Bayern Munich, an Interstellar quotation, a Spotify soundtrack, and social profiles.
+The personal website of Ahmed Almadhoob. A space-and-robotics corner of the web, featuring a personal introduction, technical interests, a popular quotation with Spotify soundtrack, and social profiles.
 
 ## Stack and architecture
 

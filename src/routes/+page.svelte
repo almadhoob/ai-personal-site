@@ -141,7 +141,7 @@
 					>techno-preneurial</ExternalLink
 				> scent, Middle Eastern poet without a state, <ExternalLink
 					href="https://firstmonday.org/ojs/index.php/fm/article/view/606/527"
-					>trans-national netizen</ExternalLink
+					>transnational netizen</ExternalLink
 				> who is called <span lang="zh-Latn">ēn quán</span> (<span lang="zh">恩全</span>) and lives
 				<span lang="de"
 					>auf einer <ExternalLink href="https://www.ovhcloud.com/en/learn/what-is-cloud-computing"

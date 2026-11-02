@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Ahmed's Intranet | A.I. Personal Cloud is Ahmed Almadhoob's personal landing page. It is a fully prerendered, responsive website with a space-and-robotics visual identity. Keep changes focused and preserve the owner's existing content and edits.
+Ahmed's Intranet is the personal landing page of Ahmed Almadhoob. It is a fully prerendered, responsive website with a space-and-robotics visual identity. Keep changes focused and preserve the owner's existing content and edits.
 
 ## Project Configuration
 

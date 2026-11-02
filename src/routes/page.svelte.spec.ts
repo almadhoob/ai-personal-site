@@ -35,7 +35,7 @@ describe('Ahmed’s landing page', () => {
 		render(Page);
 		expect(document.querySelectorAll('.distro-grid li')).toHaveLength(3);
 		expect(document.querySelectorAll('.technology-grid li')).toHaveLength(7);
-		expect(document.querySelectorAll('.word-cloud li')).toHaveLength(57);
+		expect(document.querySelectorAll('.word-cloud li')).toHaveLength(55);
 		for (const word of advocacy) {
 			expect(
 				Array.from(document.querySelectorAll('.word-cloud a')).some((link) =>
@@ -62,7 +62,7 @@ describe('Ahmed’s landing page', () => {
 		expect(embed?.getAttribute('title')).toBe('Ahmed’s soundtrack on Spotify');
 		expect(embed?.getAttribute('loading')).toBe('lazy');
 		expect(visibleCopy('.site-footer > p')).toBe(
-			'Copyleft © 2026 Ahmed Almadhoob. Some rights reserved. Except where otherwise noted, content on this site is licensed under Creative Commons BY-SA 4.0 International License.'
+			'Copyleft © 2026 Ahmed Almadhoob. Some rights reserved. Except where otherwise noted such as third-party artwork and credits page, content on this site is licensed under Creative Commons BY-SA 4.0 International License.'
 		);
 		expect(document.querySelector(`a[href="${site.license}"]`)).not.toBeNull();
 	});

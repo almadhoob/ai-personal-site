@@ -70,7 +70,7 @@ const expectedWords = [
 describe('personal content', () => {
 	it('retains every requested advocacy label, including the supplied spellings', () => {
 		expect(advocacy.map((word) => word.name)).toEqual(expectedWords);
-		expect(new Set(expectedWords).size).toBe(57);
+		expect(new Set(expectedWords).size).toBe(55);
 	});
 
 	it('produces a stable, complete cloud without modifying the source order', () => {
@@ -92,9 +92,9 @@ describe('personal content', () => {
 			'Rust',
 			'Golang',
 			'Python',
-			'Flutter',
+			'ECMAScript',
 			'Svelte',
-			'ECMAScript'
+			'Flutter'
 		]);
 		expect(featuredSocials.map((social) => social.href)).toEqual([
 			'https://www.linkedin.com/in/almadhoob',

@@ -4,9 +4,9 @@ export const site = {
 	origin: 'https://www.ai-personal.cloud',
 	email: 'me@ai-personal.cloud',
 	description:
-		'Meet Ahmed Almadhoob: technopreneur, poet, Linux enthusiast, and transnational cyber-citizen. Thoughts on digital transformation, artificial intelligence, and cloud computing.',
+		'The personal website of Ahmed Almadhoob, a technologist and contemporary poet from the Kingdom of Bahrain. Social thoughts on digital transformation, artificial intelligence, and internet citizenship.',
 	introduction:
-		'Social thoughts with a technopreneurial scent, Middle Eastern poet without a state, transnational cyber-citizen who is called ēn quán (恩全) and lives auf einer Wolke am Main, mit ganzen ℤ⁺ und NULL!',
+		'Social thoughts with a techno-preneurial scent, Middle Eastern poet without a state, transnational netizen who is called ēn quán (恩全) and lives auf einer Wolke am Main, mit ganzen ℤ⁺ und NULL!',
 	spotify: 'https://open.spotify.com/embed/track/4WmB04GBqS4xPMYN9dHgBw',
 	license: 'https://creativecommons.org/licenses/by-sa/4.0/',
 	quote:
