@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "daisyui": {
+      "source": "saadeghi/daisyui",
+      "sourceType": "github",
+      "skillPath": "skills/daisyui/SKILL.md",
+      "computedHash": "f70b06883160802b5b04db0504647cc140bd38cf7eb941183a38f44a179b27ca"
+    },
+    "find-docs": {
+      "source": "upstash/context7",
+      "sourceType": "github",
+      "skillPath": "skills/find-docs/SKILL.md",
+      "computedHash": "e4a9a707d8e5d575d166a175f2fec66e0a13de46597f7dbc910c735ccf01bb93"
+    },
+    "svelte-code-writer": {
+      "source": "sveltejs/ai-tools",
+      "sourceType": "github",
+      "skillPath": "plugins/claude/svelte/skills/svelte-code-writer/SKILL.md",
+      "computedHash": "abe888cce357ab0fa0104ff2266edaf9c3a8382320b303f920cd777762a6bc85"
+    },
+    "svelte-core-bestpractices": {
+      "source": "sveltejs/ai-tools",
+      "sourceType": "github",
+      "skillPath": "plugins/claude/svelte/skills/svelte-core-bestpractices/SKILL.md",
+      "computedHash": "3cd6c1f1a92b8bf52af8120e5cb3a93b5512f83b905fd902b895adafb7225456"
+    }
+  }
+}
