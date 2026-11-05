@@ -55,12 +55,10 @@ export const technologies: Technology[] = [
 ];
 
 export const tags = [
-	{
-		name: '#DigitalTransformation',
-		href: 'https://www.redhat.com/en/topics/digital-transformation'
-	},
-	{ name: '#CloudComputing', href: 'https://www.redhat.com/en/topics/cloud-computing' },
-	{ name: '#GenerativeAI', href: 'https://www.redhat.com/en/topics/ai/what-is-generative-ai' }
+	{ name: '#ProductManagement', href: 'https://www.atlassian.com/agile/product-management/product-owner' },
+	{ name: '#GenerativeAI', href: 'https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/what-genai' },
+	{ name: '#OpenOrganization', href: 'https://opensource.com/open-organization/resources/open-org-definition' },
+	{ name: '#DevOpsCulture', href: 'https://about.gitlab.com/topics/devops/' },
 ];
 
 export const advocacy: { name: string; href: string }[] = [

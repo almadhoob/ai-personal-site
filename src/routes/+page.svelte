@@ -40,9 +40,10 @@
 			>
 		</a>
 		<nav aria-label="Page navigation">
-			<a href="#about">The human</a>
-			<a href="#orbit">The orbit</a>
-			<a href="#follow" class="nav-contact">Hello, World! <span aria-hidden="true">↓</span></a>
+			<a href="#about">About me</a>
+			<a href="#orbit">My orbit</a>
+			<a href="#follow" class="nav-contact">E.T. Phone</a>
+			<a href="https://blog.ai-personal.cloud" target="_blank" rel="noopener" class="nav-contact">Guide #42<span aria-hidden="true">↗</span></a>
 		</nav>
 	</header>
 
@@ -63,7 +64,7 @@
 					{/each}
 				</div>
 				<a class="hero-explore" href="#about"
-					>A little about the H. sapiens <span aria-hidden="true">↓</span></a
+					>A little info about me <span aria-hidden="true">↓</span></a
 				>
 			</div>
 			<div class="portrait-system">
@@ -117,7 +118,7 @@
 						/>
 						<path d="M42 72h16" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
 					</svg>
-					<span>hello, human!</span>
+					<span>He's a human</span>
 				</div>
 			</div>
 		</section>
@@ -128,9 +129,9 @@
 
 		<section id="about" class="about-section" aria-labelledby="about-title">
 			<div class="section-heading">
-				<p class="eyebrow">PART WORDSMITH. PART TECHNOLOGIST. ENTIRELY CYBORG.</p>
+				<p class="eyebrow">PART TECHNOLOGIST. PART WORDSMITH.</p>
 				<h2 id="about-title">
-					Hello, world. <span class="serif-accent">I'm Ahmed.</span>
+					Hello, world. <span class="serif-accent">I'm Ahmed, not a humanoid.</span>
 					<span aria-hidden="true">👋</span>
 				</h2>
 			</div>
@@ -169,17 +170,17 @@
 		</div>
 
 		<section id="stack" class="stack-section" aria-labelledby="stack-title">
-			<p class="eyebrow">THE OPERATING SYSTEM IS A PHILOSOPHY</p>
+			<p class="eyebrow">THE OPERATING SYSTEM IS A LIFESTYLE</p>
 			<h2 id="stack-title">
 				Rooted in <span class="serif-accent">Linux.</span> <span aria-hidden="true">🐧</span>
 			</h2>
 			<p class="section-description">
-				A proud GNU/Linux user for <strong>more than 15 years</strong>. Settles on 3 desktops, but
-				remained with one open-source kernel.
+				A proud GNU/Linux user for <strong>more than 15 years</strong>. Settles on 3 desktop flavours, but
+				still one open-source kernel.
 			</p>
 			<TechnologyList items={distributions} large />
 			<div class="language-heading">
-				<h3>Seven technologies I fluently speak <span aria-hidden="true">🛠️</span></h3>
+				<h3>Seven technologies I speak fluently <span aria-hidden="true">🛠️</span></h3>
 				<span class="eyebrow">CODE IS A UNIVERSAL LANGUAGE</span>
 			</div>
 			<TechnologyList items={technologies} />
@@ -194,7 +195,7 @@
 				The things in <span class="serif-accent">my orbit.</span> <span aria-hidden="true">🪐</span>
 			</h2>
 			<p class="section-description">
-				Stuff I like. Little pieces of a better universe.<br />Pick a star. There’s a whole world
+				Stuff I like. Little pieces for a better universe!<br />Pick a star. There’s a whole world
 				behind it. <span aria-hidden="true">✨</span>
 			</p>
 			<WordCloud />
