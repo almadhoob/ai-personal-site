@@ -13,6 +13,12 @@
       "skillPath": "skills/find-docs/SKILL.md",
       "computedHash": "e4a9a707d8e5d575d166a175f2fec66e0a13de46597f7dbc910c735ccf01bb93"
     },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "63f6fa8e8033e7555c6f8eb91f4049eb82b134053a1ebe749a6d014988a4156c"
+    },
     "svelte-code-writer": {
       "source": "sveltejs/ai-tools",
       "sourceType": "github",

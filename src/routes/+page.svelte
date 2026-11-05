@@ -34,7 +34,7 @@
 
 <div class="site-shell">
 	<header class="masthead">
-		<a class="wordmark" href="#main" aria-label="Ahmed’s Intranet home">
+		<a class="wordmark" href="#main">
 			<span class="wordmark-symbol" aria-hidden="true">a<span>i</span>.</span>
 			<span>AHMED’S INTRANET<span class="wordmark-subtitle">A PERSONAL SPACE ON THE WEB</span></span
 			>
@@ -42,7 +42,7 @@
 		<nav aria-label="Page navigation">
 			<a href="#about">The human</a>
 			<a href="#orbit">The orbit</a>
-			<a href="#follow" class="nav-contact">Hello, World! <span aria-hidden="true">↗</span></a>
+			<a href="#follow" class="nav-contact">Hello, World! <span aria-hidden="true">↓</span></a>
 		</nav>
 	</header>
 
@@ -179,7 +179,7 @@
 			</p>
 			<TechnologyList items={distributions} large />
 			<div class="language-heading">
-				<h3>Seven technologies I speak fluently <span aria-hidden="true">🛠️</span></h3>
+				<h3>Seven technologies I fluently speak <span aria-hidden="true">🛠️</span></h3>
 				<span class="eyebrow">CODE IS A UNIVERSAL LANGUAGE</span>
 			</div>
 			<TechnologyList items={technologies} />
@@ -194,8 +194,8 @@
 				The things in <span class="serif-accent">my orbit.</span> <span aria-hidden="true">🪐</span>
 			</h2>
 			<p class="section-description">
-				Stuff I like. Little pieces of a better digital universe.<br />Pick a star. There’s a whole
-				world behind it. <span aria-hidden="true">✨</span>
+				Stuff I like. Little pieces of a better universe.<br />Pick a star. There’s a whole world
+				behind it. <span aria-hidden="true">✨</span>
 			</p>
 			<WordCloud />
 		</section>
@@ -299,8 +299,9 @@
 		<p>
 			<ExternalLink href="https://en.wikipedia.org/wiki/Copyleft">Copyleft</ExternalLink> &copy; 2026
 			Ahmed Almadhoob. Some rights reserved. Except where otherwise noted such as
-			<a href={asset('credits.txt')} target="_blank">third-party artwork and credits page</a>,
-			content on this site is licensed under <ExternalLink href={site.license}
+			<a href={asset('credits.txt')} target="_blank" rel="noopener"
+				>third-party artwork and credits page</a
+			>, content on this site is licensed under <ExternalLink href={site.license}
 				>Creative Commons BY-SA 4.0 International License.</ExternalLink
 			>
 		</p>

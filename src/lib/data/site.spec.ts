@@ -92,6 +92,9 @@ describe('personal content', () => {
 			'Rust',
 			'Golang',
 			'Python',
+			// 'Ruby',
+			// 'Elixir',
+			// 'Vue',
 			'ECMAScript',
 			'Svelte',
 			'Flutter'

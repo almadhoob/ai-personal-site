@@ -28,14 +28,14 @@ export const distributions: Technology[] = [
 		icon: 'linuxmint'
 	},
 	{
-		name: 'Raspberry Pi OS',
-		detail: 'PIXEL',
-		href: 'https://distrowatch.com/table.php?distribution=raspios',
-		icon: 'raspberrypi'
+		name: 'CachyOS',
+		detail: 'KDE Plasma',
+		href: 'https://distrowatch.com/table.php?distribution=cachyos',
+		icon: 'cachyos'
 	},
 	{
-		name: 'openSUSE Leap',
-		detail: 'KDE Plasma',
+		name: 'openSUSE',
+		detail: 'SwayWM',
 		href: 'https://distrowatch.com/table.php?distribution=opensuse',
 		icon: 'opensuse'
 	}
@@ -46,6 +46,9 @@ export const technologies: Technology[] = [
 	{ name: 'Rust', href: 'https://rust-lang.org', icon: 'rust' },
 	{ name: 'Golang', href: 'https://go.dev', icon: 'go' },
 	{ name: 'Python', href: 'https://www.python.org', icon: 'python' },
+	// { name: 'Ruby', href: 'https://www.ruby-lang.org', icon: 'ruby' },
+	// { name: 'Elixir', href: 'https://elixir-lang.org', icon: 'elixir' },
+	// { name: 'Vue', href: 'https://vuejs.org', icon: 'vuejs' },
 	{ name: 'ECMAScript', href: 'https://tc39.es/ecma262', icon: 'javascript' },
 	{ name: 'Svelte', href: 'https://svelte.dev', icon: 'svelte' },
 	{ name: 'Flutter', href: 'https://flutter.dev', icon: 'flutter' }
@@ -57,7 +60,7 @@ export const tags = [
 		href: 'https://www.redhat.com/en/topics/digital-transformation'
 	},
 	{ name: '#CloudComputing', href: 'https://www.redhat.com/en/topics/cloud-computing' },
-	{ name: '#GeneretiveAI', href: 'https://www.redhat.com/en/topics/ai/what-is-generative-ai' }
+	{ name: '#GenerativeAI', href: 'https://www.redhat.com/en/topics/ai/what-is-generative-ai' }
 ];
 
 export const advocacy: { name: string; href: string }[] = [

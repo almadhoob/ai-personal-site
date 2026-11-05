@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T07:27:00.000Z",
+  "title": "Design System: Ahmed's Intranet",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Starlight Gold",
+        "canonical": "#f6d365",
+        "tonalRamp": ["#3d3106", "#6c560e", "#9e7d17", "#cfa326", "#f6d365", "#f9df88", "#fcebab", "#fef7d9"]
+      },
+      "secondary": {
+        "role": "secondary",
+        "displayName": "Nebula Lavender",
+        "canonical": "#b8a5ff",
+        "tonalRamp": ["#191040", "#2f2070", "#4935a6", "#775ee0", "#b8a5ff", "#ccc0ff", "#e0daff", "#f3f1ff"]
+      },
+      "tertiary": {
+        "role": "tertiary",
+        "displayName": "Electric Cyan",
+        "canonical": "#74dff6",
+        "tonalRamp": ["#05303a", "#0d5566", "#178099", "#2bb3d4", "#74dff6", "#99e7f8", "#c1f0fb", "#e6f9fd"]
+      },
+      "base-100": {
+        "role": "neutral",
+        "displayName": "Deep Cosmic Abyss",
+        "canonical": "#0b1026",
+        "tonalRamp": ["#050814", "#0b1026", "#141c40", "#1e2a5e", "#2c3b7f", "#4457a8", "#6a7dc9", "#9db0e8"]
+      },
+      "base-200": {
+        "role": "neutral",
+        "displayName": "Nebula Trench",
+        "canonical": "#17152f",
+        "tonalRamp": ["#0b0a17", "#17152f", "#242147", "#343063", "#494487", "#645eb3", "#8781d4", "#b3aff0"]
+      },
+      "base-300": {
+        "role": "neutral",
+        "displayName": "Cyber Chamber",
+        "canonical": "#242144",
+        "tonalRamp": ["#110f21", "#242144", "#373366", "#4e498c", "#6862b5", "#8680d6", "#aba7e8", "#d2d0f5"]
+      },
+      "base-content": {
+        "role": "neutral",
+        "displayName": "Starlight White",
+        "canonical": "#f1f0fa",
+        "tonalRamp": ["#1b192e", "#353254", "#55517e", "#7c77ad", "#aaa5dd", "#c9c6ec", "#e3e2f5", "#f1f0fa"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Interstellar Ash",
+        "canonical": "#aaaec7",
+        "tonalRamp": ["#161720", "#2b2c3c", "#474960", "#696c8a", "#8d90b0", "#aaaec7", "#c6c9db", "#e5e6ef"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Orbit Boundary Line",
+        "canonical": "#35344f",
+        "tonalRamp": ["#0d0c14", "#1b1a29", "#29283d", "#35344f", "#4a496c", "#64628e", "#8482b2", "#aba9d4"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Monumental hero wordmark and main page title." },
+      "headline": { "displayName": "Headline", "purpose": "Major section headings (H2)." },
+      "title": { "displayName": "Title", "purpose": "Card headings, distribution names, and subsection titles (H3)." },
+      "body": { "displayName": "Body", "purpose": "Narrative reading prose and descriptive copy." },
+      "label": { "displayName": "Label / Telemetry", "purpose": "Telemetry coordinates, section eyebrows, badges, and transmission metadata." }
+    },
+    "shadows": [
+      {
+        "name": "portrait-ambient",
+        "value": "0 24px 80px rgba(0, 0, 0, 0.25)",
+        "purpose": "Atmospheric deep shadow grounding the primary hero portrait."
+      },
+      {
+        "name": "cloud-shell-glow",
+        "value": "inset 0 0 90px rgba(184, 165, 255, 0.03), 0 0 80px rgba(184, 165, 255, 0.02)",
+        "purpose": "Diffuse lavender radiance inside interest cloud shell."
+      },
+      {
+        "name": "signal-glow",
+        "value": "0 0 12px rgba(116, 223, 246, 0.47)",
+        "purpose": "Active beacon radiance around telemetry signal dots."
+      },
+      {
+        "name": "robot-sticker-shadow",
+        "value": "drop-shadow(0 8px 10px rgba(0, 0, 0, 0.31))",
+        "purpose": "Tactile drop shadow for playful robot illustration."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default easing for border-color, background, and hover-lift transitions (0.2s)."
+      },
+      {
+        "name": "arrive",
+        "value": "arrive 0.9s ease-out both",
+        "purpose": "Rotating scale arrival animation for the title star."
+      }
+    ],
+    "breakpoints": [
+      { "name": "mobile-narrow", "value": "380px" },
+      { "name": "mobile", "value": "700px" },
+      { "name": "tablet-portrait", "value": "860px" },
+      { "name": "tablet", "value": "1000px" },
+      { "name": "desktop-wide", "value": "1600px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Topic Tag Badge",
+      "kind": "chip",
+      "refersTo": "badge-outline",
+      "description": "Monospace pill badge used for topic exploration tags.",
+      "html": "<a class=\"ds-badge-outline\" href=\"#\">#GenerativeAI</a>",
+      "css": ".ds-badge-outline { display: inline-flex; align-items: center; min-height: 27px; padding: 5px 10px; font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; font-size: 0.6rem; line-height: 1.5; border: 1px solid #45415e; border-radius: 9999px; background: rgba(36, 33, 68, 0.33); color: #c5b9e9; text-decoration: none; transition: border-color 0.2s; } .ds-badge-outline:hover { border-color: #b8a5ff; }"
+    },
+    {
+      "name": "Distribution Card",
+      "kind": "card",
+      "refersTo": "distro-card",
+      "description": "Featured Linux distribution instrument card with icon, title, detail, and hover lift.",
+      "html": "<a class=\"ds-distro-card\" href=\"#\"><strong>Linux Mint</strong><span class=\"ds-distro-detail\">Cinnamon</span><span class=\"ds-distro-dest\">DISTROWATCH ↗</span></a>",
+      "css": ".ds-distro-card { display: flex; flex-direction: column; align-items: center; padding: 34px 18px 28px; border: 1px solid #35344f; border-radius: 14px; background: linear-gradient(130deg, rgba(36, 33, 68, 0.44), rgba(23, 21, 47, 0.33)); text-decoration: none; color: #f1f0fa; transition: border-color 0.2s, transform 0.2s; } .ds-distro-card:hover { border-color: rgba(184, 165, 255, 0.6); transform: translateY(-4px); } .ds-distro-card strong { font-size: 1.05rem; font-weight: 550; } .ds-distro-detail { color: #aaaec7; font-size: 0.76rem; margin-top: 2px; } .ds-distro-dest { color: #a7a0c7; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 0.52rem; letter-spacing: 0.15em; margin-top: 22px; }"
+    },
+    {
+      "name": "Technology Card",
+      "kind": "card",
+      "refersTo": "technology-card",
+      "description": "Compact grid tile representing a programming language or framework.",
+      "html": "<a class=\"ds-tech-card\" href=\"#\"><strong>Rust</strong></a>",
+      "css": ".ds-tech-card { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 23px 6px 18px; background: rgba(36, 33, 68, 0.27); border: 1px solid #35344f; border-radius: 9px; text-decoration: none; color: #f1f0fa; transition: background 0.2s; } .ds-tech-card:hover { background: #242144; } .ds-tech-card strong { font-size: 0.67rem; font-weight: 500; text-align: center; }"
+    },
+    {
+      "name": "Featured Social Link",
+      "kind": "nav",
+      "refersTo": "follow-link",
+      "description": "Primary social profile destination card with account handle and directional arrow.",
+      "html": "<a class=\"ds-follow-link\" href=\"#\"><span><strong>GitHub</strong><span>@almadhoob</span></span><span class=\"ds-follow-arrow\" aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-follow-link { display: flex; align-items: center; gap: 20px; padding: 26px; text-align: left; text-decoration: none; color: #f1f0fa; border: 1px solid #514667; background: linear-gradient(125deg, rgba(36, 33, 68, 0.63), rgba(23, 21, 47, 0.44)); border-radius: 12px; transition: border-color 0.2s, transform 0.2s; } .ds-follow-link:hover { border-color: #b8a5ff; transform: translateY(-3px); } .ds-follow-link strong { font-weight: 550; font-size: 1.05rem; display: block; } .ds-follow-link span span { font-size: 0.68rem; color: #aaaec7; margin-top: 2px; display: block; } .ds-follow-arrow { margin-left: auto; color: #b8a5ff; font-size: 1.5rem; }"
+    },
+    {
+      "name": "Transmission Divider",
+      "kind": "custom",
+      "description": "Telemetry section boundary line displaying status code and coordinates.",
+      "html": "<div class=\"ds-transmission-divider\"><span>01 / THE HUMAN BEHIND THE SIGNAL</span><span>☁ ONLINE, SOMEWHERE</span></div>",
+      "css": ".ds-transmission-divider { display: flex; gap: 20px; justify-content: space-between; padding-block: 15px; border-top: 1px solid #35344f; border-bottom: 1px solid #35344f; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 0.58rem; line-height: 1.7; color: #aaaec7; letter-spacing: 0.13em; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Orbital Observatory",
+    "overview": "The Orbital Observatory is an interstellar telemetry deck where human poetry and cybernetic exploration coexist under distant starfields. Drawing inspiration from deep-space astronomy, planetary cartography, and cybernetic interfaces, the visual world establishes a contemplative digital sanctuary for Ahmed Almadhoob. It pairs dark atmospheric depth with meticulous typographic rhythm, bridging Middle Eastern poetic warmth and the precision of Unix-like systems.\n\nSurfaces inhabit a deep midnight canvas illuminated by gentle radial nebula gradients and quiet starfield coordinates. Content is organized into measured telemetry transmissions, balanced between tactile instrument cards and organic celestial silhouettes.\n\nThe design explicitly rejects generic corporate SaaS minimalism, sterile dashboard templates, and ungrounded hyper-busy retro-futurism. In their place, it practices contemplative poetic restraint: high-contrast legibility, zero-JS resilience, and purposeful, memorable ornamentation.",
+    "keyCharacteristics": [
+      "Atmospheric Cosmic Canvas: Deep navy background (#0b1026) textured with subtle nebula luminescence and starry coordinates.",
+      "Solar Flare & Ion Accents: Warm Starlight Gold (#f6d365) and Nebula Lavender (#b8a5ff) anchored by Electric Cyan (#74dff6) telemetry signals.",
+      "Tripartite Typographic Harmony: Modern sans-serif structure, classical literary serif warmth, and monospace instrumentation.",
+      "Kinetic Hover Feedback: Translucent flat panels that subtly elevate (-3px to -4px) and illuminate their borders upon interaction.",
+      "Intentional Celestial Asymmetry: Organic orbital curves and tilted planetoid frames serving as signature framing anchors."
+    ],
+    "rules": [
+      {
+        "name": "The Rarity of Solar Gold Rule",
+        "body": "Starlight Gold (#f6d365) is strictly reserved for high-significance landmarks (the hero star, the primary contact beacon, and robot accents). It must never exceed 5% of any given view.",
+        "section": "colors"
+      },
+      {
+        "name": "The Beacon Signal Rule",
+        "body": "Electric Cyan (#74dff6) is the exclusive signifier of active telemetry, keyboard focus, and operational signals. It never serves as broad container fills.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tripartite Division Rule",
+        "body": "Every text element belongs to exactly one of three voices: Structural (Inter sans-serif), Humanist (Georgia serif italic for poetry and quotes), or Telemetry (SFMono monospace uppercase for data and coordinates). Mixing their semantic purposes is prohibited.",
+        "section": "typography"
+      },
+      {
+        "name": "The Atmospheric Radiance Rule",
+        "body": "Elevation is expressed through tonal luminosity and radial nebula translucency, not heavy drop shadows. Surfaces glow from within the cosmic dark.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Kinetic Hover-Lift Rule",
+        "body": "Interactive cards rest flat on the cosmic canvas; hovering triggers an immediate -3px to -4px translateY lift and a border shift toward Nebula Lavender (#b8a5ff99).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do strictly maintain the Tripartite typographic hierarchy (Inter for structure, Georgia for literary passages, SFMono for telemetry).",
+      "Do preserve the deep space #0b1026 background and atmospheric radial nebula gradients.",
+      "Do reserve #f6d365 (Starlight Gold) for high-significance landmarks (≤5% surface area).",
+      "Do ensure 100% accessible navigation and contrast without requiring client-side JavaScript.",
+      "Do use ExternalLink.svelte for external targets with visible and screen-reader new-tab notices."
+    ],
+    "donts": [
+      "Don't introduce generic corporate SaaS aesthetics, stark white cards, or harsh drop shadows.",
+      "Don't use Electric Cyan (#74dff6) as broad container fills; keep it strictly as an active telemetry signal or focus ring.",
+      "Don't add ungrounded, hyperactive animations that violate prefers-reduced-motion.",
+      "Don't clutter content areas with unnecessary planetary orbits; reserve signature organic silhouettes for key anchoring landmarks.",
+      "Don't load remote font CDNs; keep all typography native and local system-backed."
+    ]
+  }
+}
